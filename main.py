@@ -9,6 +9,7 @@ Config.set('input', 'mouse', 'mouse,multitouch_on_demand')
 
 class MainWindow(App):
     def build(self):
+        self.icon = 'assets/feather.ico'
         return DrawPad()
 
 MainWindow().run()
